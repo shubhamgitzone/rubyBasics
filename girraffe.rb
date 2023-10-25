@@ -36,8 +36,10 @@ phrase = "Girraffe Academy"
 puts phrase
 puts phrase.upcase() # prints upperCase of String
 puts phrase.downcase()
+
 phrase = "      Girraffe Academy           "
 puts phrase.strip() # removes any space from start or end of text
+
 phrase = "Girraffe Academy"
 puts phrase.length()
 puts phrase.include? "Academys" # verify if it includes given String
@@ -45,4 +47,34 @@ puts phrase[9]
 puts phrase[0,9]
 puts phrase.index("G")
 puts phrase.index("ffe")
+
 puts "Shubham".upcase()
+
+#-------------Lecture 4 ::: Working with Numbers ----------------------------------
+
+puts 5
+puts -5.878767897
+puts 5+9
+puts 2**3 # 2^3
+puts 10%3 # reminder
+
+num = -20.487
+puts ("my fav num "+ num.to_s) # to_s converts numbe rto String
+puts num.abs()
+puts num.round()
+
+num =20.687
+puts num.round()
+
+num =20.1
+puts num.ceil()
+
+num =20.9
+puts num.floor()
+puts Math.sqrt(36) # Math is a class with simplified functions in it
+
+puts 1+7
+puts 1.0+7
+
+puts 10/7
+puts 10/7.0 # ruby distinguises between floating point number and integers
