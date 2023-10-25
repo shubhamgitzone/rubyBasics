@@ -17,3 +17,13 @@ puts ("he was "+ character_age +" years old.")
 character_name = "Tom"
 puts ("he really liked the name "+character_name)
 puts ("but didn't like being "+character_age +" .")
+
+#-------------Lecture 3 ::: Datatypes ----------------------------------
+
+name = "Mike"
+age = 75
+gpa = 3.2
+iq = -10
+isMale = true
+isTall = false
+flaws = nil
