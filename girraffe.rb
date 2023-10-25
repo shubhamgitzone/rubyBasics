@@ -27,3 +27,22 @@ iq = -10
 isMale = true
 isTall = false
 flaws = nil
+
+#-------------Lecture 4 ::: Working with Strings ----------------------------------
+
+puts "Girraffe \" Academy"
+puts "Girraffe \n Academy"
+phrase = "Girraffe Academy"
+puts phrase
+puts phrase.upcase() # prints upperCase of String
+puts phrase.downcase()
+phrase = "      Girraffe Academy           "
+puts phrase.strip() # removes any space from start or end of text
+phrase = "Girraffe Academy"
+puts phrase.length()
+puts phrase.include? "Academys" # verify if it includes given String
+puts phrase[9]
+puts phrase[0,9]
+puts phrase.index("G")
+puts phrase.index("ffe")
+puts "Shubham".upcase()
