@@ -1,3 +1,4 @@
+#-------------Lecture 9 ::: Hashes ----------------------------------
 #  hashes allows us to store key-value pairs
 #  works like dictionary
 #  similar to hashMap in java

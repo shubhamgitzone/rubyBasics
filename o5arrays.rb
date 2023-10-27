@@ -1,4 +1,4 @@
-
+#-------------Lecture 8 ::: Arrays ----------------------------------
 friends= Array["Kevin", "Bob", "Stuart", 25, nil, false]
 puts friends
 puts friends[0]

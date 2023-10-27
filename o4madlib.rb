@@ -1,3 +1,4 @@
+#-------------Lecture 7 ::: Madlib Game ----------------------------------
 puts("Enter a color: ")
 color=gets.chomp()
 
