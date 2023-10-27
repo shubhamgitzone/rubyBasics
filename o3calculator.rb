@@ -3,6 +3,8 @@
 puts "Enter a number: "
 num1 = gets.chomp().to_f
 
+# chomp() allows us to remove extra line from end of input
+# gets allows us to take input from console
 # to_i converts input string to integer
 # to_f converts input string to floating point
 puts "Enter another number: "
